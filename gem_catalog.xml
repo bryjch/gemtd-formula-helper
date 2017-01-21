@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+	<!-- Raw Gems -->
+	<GEM>
+		<TYPE>Sapphire</TYPE>
+		<CODE>B</CODE>
+		<TIER>
+			<ONE>	<BUILDS>Silver</BUILDS>				<WITH>D1,Y1</WITH>		</ONE>
+			<TWO>	<BUILDS>Jade</BUILDS>				<WITH>E3,G3</WITH>		</TWO>
+			<THREE>	<BUILDS>Uranium-238</BUILDS>		<WITH>E2,Y5</WITH>		</THREE>
+			<FOUR>	<BUILDS>DarkEmerald</BUILDS>		<WITH>Y2,G5</WITH>		</FOUR>
+			<FIVE>	<BUILDS>YellowSapphire</BUILDS>		<WITH>Y4,R4</WITH>		</FIVE>
+		</TIER>
+		<IMG>sapphire.png</IMG>
+	</GEM>
+
+	<GEM>
+		<TYPE>Diamond</TYPE>
+		<CODE>D</CODE>
+		<TIER>
+			<ONE>	<BUILDS>Silver</BUILDS>				<WITH>B1,Y1</WITH>		</ONE>
+			<TWO>	<BUILDS>HugeMalachite,Gold</BUILDS>		<WITH>Malachite,Y3,P4,P5</WITH>		</TWO>
+			<THREE>	<BUILDS>PinkDiamond</BUILDS>		<WITH>Y3,D5</WITH>		</THREE>
+			<FOUR>	<BUILDS>BlackCatsEye</BUILDS>		<WITH>Q3,E5</WITH>		</FOUR>
+			<FIVE>	<BUILDS>PinkDiamond</BUILDS>	<WITH>D3,Y3</WITH>		</FIVE>
+		</TIER>
+		<IMG>diamond.png</IMG>
+	</GEM>
+
+	<GEM>
+		<TYPE>Topaz</TYPE>
+		<CODE>Y</CODE>
+		<TIER>
+			<ONE>	<BUILDS>Silver</BUILDS>						<WITH>B1,D1</WITH>			</ONE>
+			<TWO>	<BUILDS>DarkEmerald</BUILDS>				<WITH>B4,G5</WITH>			</TWO>
+			<THREE>	<BUILDS>HugeMalachite,PinkDiamond</BUILDS>	<WITH>Malachite,D2,D3,D5</WITH>	</THREE>
+			<FOUR>	<BUILDS>YellowSapphire</BUILDS>				<WITH>R4,B5</WITH>			</FOUR>
+			<FIVE>	<BUILDS>Uranium-238</BUILDS>				<WITH>E2,B3</WITH>			</FIVE>
+		</TIER>
+		<IMG>topaz.png</IMG>
+	</GEM>
+
+
+	<GEM>
+		<TYPE>Opal</TYPE>
+		<CODE>E</CODE>
+		<TIER>
+			<ONE>	<BUILDS>Malachite</BUILDS>			<WITH>G1,Q1</WITH>		</ONE>
+			<TWO>	<BUILDS>Uranium-238</BUILDS>		<WITH>B3,Y5</WITH>		</TWO>
+			<THREE>	<BUILDS>Jade</BUILDS>				<WITH>B2,G3</WITH>		</THREE>
+			<FOUR>	<BUILDS>ParaibaTourmaline</BUILDS>	<WITH>G2,Q5</WITH>		</FOUR>
+			<FIVE>	<BUILDS>BlackCatsEye</BUILDS>		<WITH>Q3,D4</WITH>		</FIVE>
+		</TIER>
+		<IMG>opal.png</IMG>
+	</GEM>
+
+	<GEM>
+		<TYPE>Emerald</TYPE>
+		<CODE>G</CODE>
+		<TIER>
+			<ONE>	<BUILDS>Malachite</BUILDS>				<WITH>E1,Q1</WITH>		</ONE>
+			<TWO>	<BUILDS>ParaibaTourmaline</BUILDS>		<WITH>E4,Q5</WITH>		</TWO>
+			<THREE>	<BUILDS>Jade,LuckyChineseJade</BUILDS>	<WITH>B2,E3,Quartz</WITH>		</THREE>
+			<FOUR>	<BUILDS>Quartz</BUILDS>					<WITH>P2,R3</WITH>		</FOUR>
+			<FIVE>	<BUILDS>DarkEmerald</BUILDS>			<WITH>Y2,B4</WITH>		</FIVE>
+		</TIER>
+		<IMG>emerald.png</IMG>
+	</GEM>
+
+	<GEM>
+		<TYPE>Aquamarine</TYPE>
+		<CODE>Q</CODE>
+		<TIER>
+			<ONE>	<BUILDS>Malachite</BUILDS>				<WITH>E1,G1</WITH>		</ONE>
+			<TWO>	<BUILDS>SilverKnight</BUILDS>			<WITH>Q2,R3</WITH>		</TWO>
+			<THREE>	<BUILDS>BlackCatsEye</BUILDS>			<WITH>D4,E5</WITH>		</THREE>
+			<FOUR>	<BUILDS>Bloodstone</BUILDS>				<WITH>P3,R5</WITH>		</FOUR>
+			<FIVE>	<BUILDS>ParaibaTourmaline</BUILDS>		<WITH>G2,E4</WITH>		</FIVE>
+		</TIER>
+		<IMG>aqua.png</IMG>
+	</GEM>
+
+	<GEM>
+		<TYPE>Ruby</TYPE>
+		<CODE>R</CODE>
+		<TIER>
+			<ONE>	<BUILDS>AsteriatedRuby</BUILDS>						<WITH>P1,R2</WITH>	</ONE>
+			<TWO>	<BUILDS>AsteriatedRuby,AntiqueBloodstone</BUILDS>	<WITH>P1,R1,Volcano,Bloodstone</WITH>	</TWO>
+			<THREE>	<BUILDS>Quartz,SilverKnight</BUILDS>				<WITH>P2,G4,Q2,Silver</WITH>	</THREE>
+			<FOUR>	<BUILDS>Volcano,YellowSapphire</BUILDS>				<WITH>P3,AsteriatedRuby,Y4,B5</WITH>	</FOUR>
+			<FIVE>	<BUILDS>Bloodstone</BUILDS>							<WITH>P3,Q4</WITH>	</FIVE>
+		</TIER>
+		<IMG>ruby.png</IMG>
+	</GEM>
+
+	<GEM>
+		<TYPE>Amethyst</TYPE>
+		<CODE>P</CODE>
+		<TIER>
+			<ONE>	<BUILDS>AsteriatedRuby</BUILDS>		<WITH>R1,R2</WITH>		</ONE>
+			<TWO>	<BUILDS>Quartz</BUILDS>				<WITH>R3,G4</WITH>		</TWO>
+			<THREE>	<BUILDS>Volcano,Bloodstone</BUILDS>	<WITH>R4,AsteriatedRuby,Q4,R5</WITH>		</THREE>
+			<FOUR>	<BUILDS>Gold</BUILDS>				<WITH>D2,P5</WITH>		</FOUR>
+			<FIVE>	<BUILDS>Gold</BUILDS>				<WITH>D2,P4</WITH>		</FIVE>
+		</TIER>
+		<IMG>amethyst.png</IMG>
+	</GEM>
+
+	<!-- Combined Towers -->
+	<TOWER>
+		<TYPE>Silver</TYPE>
+		<NEEDS>B1,D1,Y1</NEEDS>
+		<IMG>silver.png</IMG>
+	</TOWER>
+	
+	<TOWER>
+		<TYPE>Silver Knight</TYPE>
+		<NEEDS>Silver,Q2,R3</NEEDS>
+		<IMG>silverknight.png</IMG>
+	</TOWER>
+	
+	<TOWER>
+		<TYPE>Malachite</TYPE>
+		<NEEDS>E1,G1,Q1</NEEDS>
+		<IMG>malachite.png</IMG>
+	</TOWER>
+	
+	<TOWER>
+		<TYPE>Huge Malachite</TYPE>
+		<NEEDS>Malachite,D2,Y3</NEEDS>
+		<IMG>hugemalachite.png</IMG>
+	</TOWER>
+	
+	<TOWER>
+		<TYPE>Asteriated Ruby</TYPE>
+		<NEEDS>R2,R1,P1</NEEDS>
+		<IMG>asteriatedruby.png</IMG>
+	</TOWER>
+	
+	<TOWER>
+		<TYPE>Volcano</TYPE>
+		<NEEDS>AsteriatedRuby,R4,P3</NEEDS>
+		<IMG>volcano.png</IMG>
+	</TOWER>
+	
+	<TOWER>
+		<TYPE>Quartz</TYPE>
+		<NEEDS>G4,R3,P2</NEEDS>
+		<IMG>quartz.png</IMG>
+	</TOWER>
+	
+	<TOWER>
+		<TYPE>Jade</TYPE>
+		<NEEDS>G3,E3,B2</NEEDS>
+		<IMG>jade.png</IMG>
+	</TOWER>
+	
+	<TOWER>
+		<TYPE>Lucky Chinese Jade</TYPE>
+		<NEEDS>Quartz,Jade,G3</NEEDS>
+		<IMG>luckychinesejade.png</IMG>
+	</TOWER>
+	
+	<TOWER>
+		<TYPE>Dark Emerald</TYPE>
+		<NEEDS>G5,B4,Y2</NEEDS>
+		<IMG>darkemerald.png</IMG>
+	</TOWER>
+	
+	<TOWER>
+		<TYPE>Yellow Sapphire</TYPE>
+		<NEEDS>B5,Y4,R4</NEEDS>
+		<IMG>yellowsapphire.png</IMG>
+	</TOWER>
+	
+	<TOWER>
+		<TYPE>Gold</TYPE>
+		<NEEDS>P5,P4,D2</NEEDS>
+		<IMG>gold.png</IMG>
+	</TOWER>
+	
+	<TOWER>
+		<TYPE>Pink Diamond</TYPE>
+		<NEEDS>D5,D3,Y3</NEEDS>
+		<IMG>pinkdiamond.png</IMG>
+	</TOWER>
+	
+	<TOWER>
+		<TYPE>Huge Pink Diamond</TYPE>
+		<NEEDS>PinkDiamond,SilverKnight,Silver</NEEDS>
+		<IMG>hugepinkdiamond.png</IMG>
+	</TOWER>
+	
+	<TOWER>
+		<TYPE>Bloodstone</TYPE>
+		<NEEDS>R5,Q4,P3</NEEDS>
+		<IMG>bloodstone.png</IMG>
+	</TOWER>
+	
+	<TOWER>
+		<TYPE>Antique Bloodstone</TYPE>
+		<NEEDS>Bloodstone,Volcano,R2</NEEDS>
+		<IMG>antiquebloodstone.png</IMG>
+	</TOWER>
+	
+	<TOWER>
+		<TYPE>Uranium-238</TYPE>
+		<NEEDS>Y5,B3,E2</NEEDS>
+		<IMG>uranium-238.png</IMG>
+	</TOWER>
+	
+	<TOWER>
+		<TYPE>Uranium-235</TYPE>
+		<NEEDS>Uranium-238,HugeMalachite,Malachite</NEEDS>
+		<IMG>uranium-235.png</IMG>
+	</TOWER>
+	
+	<TOWER>
+		<TYPE>Black Cats Eye</TYPE>
+		<NEEDS>E5,D4,Q3</NEEDS>
+		<IMG>blackcatseye.png</IMG>
+	</TOWER>
+	
+	<TOWER>
+		<TYPE>Paraiba Tourmaline</TYPE>
+		<NEEDS>Q5,E4,G2</NEEDS>
+		<IMG>paraibatourmaline.png</IMG>
+	</TOWER>
+	
+	<TOWER>
+		<TYPE>Elaborately Carved Tourmaline</TYPE>
+		<NEEDS>ParaibaTourmaline,Gold,Silver</NEEDS>
+		<IMG>elaboratelycarvedtourmaline.png</IMG>
+	</TOWER>
+	
+</CATALOG>

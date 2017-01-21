@@ -1,0 +1,113 @@
+.myTable {
+	margin: 1em;
+}
+
+.myTable td {
+	background-color: pink;
+	border: 1px solid white;
+	padding: 1em;
+	margin: 1em;
+}
+
+#gems, #towers, #towers2 {
+	margin: 1em;
+}
+
+#gems th, #towers th, #towers2 th {
+	color: white;
+	padding: 0.2em;
+	background-color: black;
+	font-family: sans-serif;
+
+}
+
+#gems td, #towers td, #towers2 td {
+	color: white;
+	padding: 0.2em;
+	background-color: black;
+	font-family: sans-serif;
+	min-width: 50px;
+	text-align: center;
+}
+
+#gems td img, #towers td img, #towers2 td img {
+	vertical-align: top;
+}
+
+#gems .box, #towers .box, #towers2 .box {
+	cursor: pointer;
+	transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+#gems .box.highlight-active-1, #towers .highlight-active-1, #towers2 .highlight-active-1 {
+	background-color: #efbc5c;
+	color: black;
+	cursor: pointer;
+}
+
+#gems .box.highlight-active-2, #towers .highlight-active-2, #towers2 .highlight-active-2 {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efbc5c+0,efbc5c+50,4072c1+51,4072c1+100 */
+	background: #efbc5c; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #efbc5c 0%, #efbc5c 50%, #4072c1 51%, #4072c1 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  #efbc5c 0%,#efbc5c 50%,#4072c1 51%,#4072c1 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  #efbc5c 0%,#efbc5c 50%,#4072c1 51%,#4072c1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efbc5c', endColorstr='#4072c1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	color: black;
+	cursor: pointer;
+}
+
+/* Highlights for 'CURRENTLY SELECTED' and 'BUILDS INTO' boxes */
+#gems .box.highlight-1, #towers .box.highlight-1, #towers2 .box.highlight-1 {
+	background-color: #efbc5c;
+	color: black;
+	cursor: pointer;
+}
+
+#gems .box.highlight-2, #towers .box.highlight-2, #towers2 .box.highlight-2 {
+	//background-color: #4b96d6;
+	background-color: #4072c1;
+	color: black;
+	cursor: pointer;	
+}
+
+/* Highlight for 'BUILDS WITH' boxes */
+#gems .box.highlight-1-dim, #towers .box.highlight-1-dim, #towers2 .box.highlight-1-dim {
+	background-color: #7e683f;
+	color: black;
+	cursor: pointer;
+}
+
+#gems .box.highlight-2-dim, #towers .box.highlight-2-dim, #towers2 .box.highlight-2-dim {
+	//background-color: #3d6b91;
+	background-color: #324f7c;
+	color: black;
+	cursor: pointer;
+}
+
+#tables {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	
+}
+
+.info {
+	margin: auto;
+	display: table;
+	justify-content: center;
+}
+
+body {
+	min-height: 100%;
+	margin: 0 auto;
+	display: block;
+	background-color: rgba(25,25,25,1);
+	color: white;
+	font-family: sans-serif;
+	
+}
+
+#gems th.gemtype {
+	font-size: 75%;
+	
+}
